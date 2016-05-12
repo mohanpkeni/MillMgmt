@@ -1,0 +1,21 @@
+﻿body {
+}
+
+#field{margin-left: .5em;float: right;}
+
+#field, label{float: left;font-family: Arial, Helvetica, sans-serif;font-size: small;}
+div{height:17px;}
+br{clear: both;}
+
+input{border: 1px solid black;margin-bottom: .5em;}
+
+input.error{border: 1px solid red;}
+
+label.error{position:static;background: url('Images/wrong.png') no-repeat;padding-left: 20px; margin-left: .3em; vertical-align: middle;background-color: #FFEBE8;width: 250px;float:right;}
+
+label.valid{position:inherit;background: url('Images/right.png') no-repeat;display: block; float:right; margin-right:235px; width: 16px;height: 16px;border: none;vertical-align:top;}
+
+.clr{clear:both}
+.lblsize{float:left; width:150px;}
+.inpsize{float:left; width:200px; margin-right:10px;}
+.fldsize{width:640px;}
